@@ -2,6 +2,6 @@ let itemName = 'Pen'
 let itemPrice = 3
 let itemAvailable = true
 let itemColor
-itemName = null
+itemPrice = 'dois'
 
-console.log(itemName)
+console.log(typeof itemPrice)
