@@ -1,3 +1,2 @@
-const price = 30;
-// price = 20;
-console.log(price);
+let firstName = 'Julio'
+console.log(firstName)
