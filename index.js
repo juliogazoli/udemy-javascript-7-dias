@@ -1,5 +1,8 @@
-function saleStatus(status, total) {
-    console.log('Transaction ' + status + '! Total amount: $' + total)
+function percentage10(price) {
+    return price - (price * 10 / 100)
 }
 
-saleStatus('Aprroved', 30)
+// let total = percentage10(20)
+// console.log(total)
+
+console.log(percentage10(40))
