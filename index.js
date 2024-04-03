@@ -1,6 +1,12 @@
-let num1 = 3
+// let num1 = 3
 
-// num1 += 20
-num1 *= 20
+// console.log(num1 > 0)
+// console.log(num1 < 0)
+// console.log(num1 >= 3)
+// console.log(num1 <= 3)
 
-console.log(num1)
+// console.log(num1 !== 3)
+
+let nome = 'Julio'
+
+console.log(nome === 'Julio')
