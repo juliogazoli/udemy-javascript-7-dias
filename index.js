@@ -1,12 +1,5 @@
-// let num1 = 3
+let num1 = '1'
+let num2 = 1
 
-// console.log(num1 > 0)
-// console.log(num1 < 0)
-// console.log(num1 >= 3)
-// console.log(num1 <= 3)
-
-// console.log(num1 !== 3)
-
-let nome = 'Julio'
-
-console.log(nome === 'Julio')
+console.log(num1 === num2)
+console.log(num1 == num2)
