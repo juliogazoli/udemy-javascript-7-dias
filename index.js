@@ -1,19 +1,6 @@
 let num1 = 3
-let num2 = 2
 
-console.log(num1 + num2)
-console.log(num1 - num2)
-console.log(num1 * num2)
-console.log(num1 / num2)
-console.log(num1 % num2)
-console.log(num1 ** num2)
+// num1 += 20
+num1 *= 20
 
-let total = num1 + num2
-
-console.log(++total)
-console.log(--total)
-
-console.log(total++)
-console.log(total)
-console.log(total--)
-console.log(total)
+console.log(num1)
