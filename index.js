@@ -1,5 +1,4 @@
-let num1 = '1'
-let num2 = 1
+let driver = 120
+let speed = driver > 110 ? 'Above' : 'Below'
 
-console.log(num1 === num2)
-console.log(num1 == num2)
+console.log(speed)
