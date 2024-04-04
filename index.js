@@ -1,8 +1,5 @@
-let temIdadeMinima = true
-let temTituloEleitor = true
+let corCliente = undefined
+let corEstoque = 'Black'
+let corVendida = corCliente || corEstoque
 
-let podeVotar = temIdadeMinima && temTituloEleitor
-console.log('Pode votar: ' + podeVotar)
-
-let podeViajar = !podeVotar
-console.log('Pode viajar: ' + podeViajar)
+console.log(corVendida)
