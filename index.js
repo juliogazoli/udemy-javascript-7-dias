@@ -1,4 +1,8 @@
-let driver = 120
-let speed = driver > 110 ? 'Above' : 'Below'
+let temIdadeMinima = true
+let temTituloEleitor = true
 
-console.log(speed)
+let podeVotar = temIdadeMinima && temTituloEleitor
+console.log('Pode votar: ' + podeVotar)
+
+let podeViajar = !podeVotar
+console.log('Pode viajar: ' + podeViajar)
