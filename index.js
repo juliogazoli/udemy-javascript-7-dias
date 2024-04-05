@@ -1,13 +1,15 @@
-let driverSpeed = 110
+let airport = 'ABC'
 
-if (driverSpeed > 110) {
-    console.log('Driving too fast')
-}
-
-else if (driverSpeed > 40 && driverSpeed <= 110) {
-    console.log('OK')
-}
-
-else {
-    console.log('Driving too slow')
+switch (airport) {
+    case 'MCO':
+        console.log('Orlando')
+        break
+    case 'JFK':
+        console.log('John F. Kennedy')
+        break
+    case 'SEA':
+        console.log('Seattle')
+        break
+    default:
+        console.log('Unknown')
 }
