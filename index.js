@@ -1,5 +1,5 @@
-let i = 1 
-while (i <= 10){
+let i = 1
+do {
     console.log('Número ', i)
     i++
-}
+} while (i <= 10)
