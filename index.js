@@ -1,8 +1,15 @@
-let i = 1
+let bookTitle = 'Atomic Habits'
+let bookAuthor = 'James Clear'
+let bookPages = 306
 
-while (i <= 10) {
-    if (i === 8) break
-
-    console.log('Numero ', i)
-    i++
+const book = {
+    bookTitle: 'Atomic Habits',
+    bookAuthor: 'James Clear',
+    bookPages: 306,
+    bookChaptters: {
+        chap1: 'Fundamentals',
+        chap2: '1st law',
+    }
 }
+
+console.log(book)
