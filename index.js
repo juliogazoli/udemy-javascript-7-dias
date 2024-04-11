@@ -1,7 +1,3 @@
-let bookTitle = 'Atomic Habits'
-let bookAuthor = 'James Clear'
-let bookPages = 306
-
 const book = {
     bookTitle: 'Atomic Habits',
     bookAuthor: 'James Clear',
@@ -9,7 +5,10 @@ const book = {
     bookChaptters: {
         chap1: 'Fundamentals',
         chap2: '1st law',
+    },
+    printBook: function () {
+        console.log('printing...')
     }
 }
 
-console.log(book)
+book.printBook()
