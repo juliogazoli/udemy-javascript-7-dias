@@ -1,5 +1,8 @@
-console.log(Math.max(1, 3, 15, 2, 7, 4))
-console.log(Math.min(1, 3, 15, 2, 7, 4))
-console.log(Math.round(5.6))
-console.log(Math.round(5.3))
-console.log(Math.PI)
+let message = 'Hey, my name is Julio'
+
+console.log(message.startsWith('Hey'))
+console.log(message.startsWith('Heyq'))
+console.log(message.startsWith('hey'))
+console.log(message.length)
+console.log(message.includes('is'))
+console.log(message.endsWith('io'))
