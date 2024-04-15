@@ -1,8 +1,8 @@
-let message = 'Hey, my name is Julio'
+let firstName = 'Joe'
+const email = 'Hi ' + firstName + ', \nThe meeting is confirmed! \nJulio'
+const email2 = `Hi ${firstName},
+The meeting is confirmed!
+Julio`
 
-console.log(message.startsWith('Hey'))
-console.log(message.startsWith('Heyq'))
-console.log(message.startsWith('hey'))
-console.log(message.length)
-console.log(message.includes('is'))
-console.log(message.endsWith('io'))
+console.log(email)
+console.log(email2)
